@@ -1,34 +1,48 @@
-# Gradle files
-.gradle/
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
 build/
+dist/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
 
-# Log/OS Files
+# Environment Variables
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# OS Files
+.DS_Store
 *.log
 
-# Android Studio generated files and folders
+# IntelliJ
+*.iml
+.idea/
+
+# Gradle files (legacy Android)
+.gradle/
+local.properties
 captures/
 .externalNativeBuild/
 .cxx/
 *.aab
 *.apk
 output-metadata.json
-
-# IntelliJ
-*.iml
-.idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
-
-# Keystore files
 *.jks
 *.keystore
-
-# Google Services (e.g. APIs or Firebase)
 google-services.json
-
-# Android Profiling
 *.hprof
