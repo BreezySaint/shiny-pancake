@@ -1,0 +1,25 @@
+{
+  "alignedmover": {
+    "id": "alignedmover001",
+    "name": "Aligned Mover",
+    "slug": "alignedmover",
+    "description": "A precision-aligned movement system for seamless transitions",
+    "status": "active",
+    "configuration": {
+      "alignment": "center",
+      "speed": 1.0,
+      "direction": "horizontal",
+      "easing": "ease-in-out",
+      "autoStart": false,
+      "loop": true
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "author": "System",
+      "tags": ["movement", "alignment", "animation"],
+      "priority": 1
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  }
+}
